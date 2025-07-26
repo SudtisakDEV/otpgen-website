@@ -1,0 +1,76 @@
+# robots.txt for otpgen.online
+# Free 2FA TOTP Code Generator
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl everything
+Allow: /index.html
+Allow: /sitemap.xml
+Allow: /favicon.ico
+
+# Disallow sensitive or unnecessary files
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /*.log
+Disallow: /temp/
+Disallow: /backup/
+
+# Sitemap location
+Sitemap: https://otpgen.online/sitemap.xml
+
+# Crawl-delay (optional - helps prevent overload)
+Crawl-delay: 1
+
+# Specific instructions for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Facebook (for Open Graph)
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Cache instructions
+# Host: otpgen.online

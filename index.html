@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Primary Meta Tags -->
+        <title>OTPGen.online - ฟรี! สร้างรหัส 2FA Code Generator TOTP
+            ออนไลน์</title>
+        <meta name="title"
+            content="OTPGen.online - ฟรี! สร้างรหัส 2FA Code Generator TOTP ออนไลน์">
+        <meta name="description"
+            content="สร้างรหัส 2FA TOTP Code ฟรี ออนไลน์ ปลอดภัย รองรับ Facebook Instagram Google Authenticator ไม่ต้องติดตั้งแอป ใช้งานง่าย">
+        <meta name="keywords"
+            content="2fa generator, totp code, google authenticator, facebook 2fa, รหัสยืนยัน, สร้างรหัส 2FA, OTP generator, authentication code, ปลอดภัย, ฟรี">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="Thai">
+        <meta name="author" content="OTPGen.online">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://otpgen.online/">
+        <meta property="og:title"
+            content="OTPGen.online - ฟรี! สร้างรหัส 2FA Code Generator">
+        <meta property="og:description"
+            content="สร้างรหัส 2FA TOTP Code ฟรี ออนไลน์ ปลอดภัย รองรับ Facebook Instagram Google">
+        <meta property="og:image"
+            content="https://otpgen.online/assets/images/og-image.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://otpgen.online/">
+        <meta property="twitter:title"
+            content="OTPGen.online - ฟรี! สร้างรหัส 2FA Code Generator">
+        <meta property="twitter:description"
+            content="สร้างรหัส 2FA TOTP Code ฟรี ออนไลน์ ปลอดภัย">
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://otpgen.online/">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="/assets/images/apple-touch-icon.png">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/ads.css">
+
+        <!-- Google AdSense -->
+        <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+            crossorigin="anonymous"></script>
+
+        <!-- Schema.org markup -->
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "OTPGen.online",
+        "description": "ฟรี! สร้างรหัส 2FA TOTP Code Generator ออนไลน์ ปลอดภัย",
+        "url": "https://otpgen.online",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "THB"
+        }
+    }
+    </script>
+    </head>
+    <body>
+        <!-- Left Sidebar Ad -->
+        <div class="sidebar-ad left-ad">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                data-ad-slot="XXXXXXXXXX"
+                data-ad-format="vertical"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <!-- Right Sidebar Ad -->
+        <div class="sidebar-ad right-ad">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                data-ad-slot="XXXXXXXXXX"
+                data-ad-format="vertical"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <!-- Language Toggle -->
+        <div class="language-toggle" onclick="toggleLanguage()">
+            <span id="langToggle">🇺🇸 EN</span>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="/">🔐 OTPGen.online</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" id="nav-home">หน้าแรก</a></li>
+                    <li><a href="blog/" id="nav-blog">บล็อก</a></li>
+                    <li><a href="how-to-use.html"
+                            id="nav-guide">วิธีใช้</a></li>
+                    <li><a href="privacy.html"
+                            id="nav-privacy">ความเป็นส่วนตัว</a></li>
+                    <li><a href="terms.html" id="nav-terms">เงื่อนไข</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <div class="header">
+            <h1 id="mainTitle">🔐 OTPGen.online</h1>
+            <div class="tagline" id="tagline">ฟรี! สร้างรหัส 2FA TOTP Code
+                Generator ออนไลน์</div>
+            <div class="keywords" id="keywords">Facebook • Instagram • Google
+                Authenticator • รหัสยืนยัน • ปลอดภัย</div>
+        </div>
+
+        <!-- Top Banner Ad -->
+        <div class="ad-container ad-top">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                data-ad-slot="XXXXXXXXXX"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <!-- Main Content -->
+        <div class="container">
+            <div class="intro-text">
+                <h2 id="introTitle">สร้างรหัส 2FA แบบฟรี ปลอดภัย 100%</h2>
+                <p id="introText">ไม่ต้องติดตั้งแอป ใช้งานได้ทันที
+                    รองรับทุกแพลตฟอร์ม</p>
+            </div>
+
+            <div id="alert" class="alert hidden"></div>
+
+            <div class="form-group">
+                <label for="secretKey">
+                    <span class="required">*</span> <span id="secretLabel">2FA
+                        Secret Key (รหัสลับจาก Facebook/Google)</span>
+                </label>
+                <textarea
+                    id="secretKey"
+                    placeholder="ใส่ Secret Key ที่ได้จาก Facebook, Instagram, Google เช่น: S2WO ZCCB WI3B F47G WCAD IBRW DXUH RWOO"
+                    rows="4"></textarea>
+            </div>
+
+            <button class="btn btn-primary" onclick="generateCode()"
+                id="generateBtn">
+                🚀 สร้างรหัส 2FA ทันที
+            </button>
+
+            <div id="codeSection" class="hidden">
+                <div class="form-group">
+                    <label id="codeLabel">รหัส 2FA ของคุณ (6 หลัก)</label>
+                    <div class="code-display">
+                        <div class="code-number" id="totpCode">------</div>
+                        <div class="code-timer">
+                            <span id="timerText">รหัสจะหมดอายุใน</span> <span
+                                id="timeLeft">30</span> <span
+                                id="secondText">วินาที</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary" onclick="copyCode()"
+                        id="copyBtn">
+                        📋 คัดลอกรหัส
+                    </button>
+                    <button class="btn btn-primary" onclick="refreshCode()"
+                        id="refreshBtn">
+                        🔄 สร้างใหม่
+                    </button>
+
+                    <!-- Rectangle Ad -->
+                    <div class="ad-container ad-rectangle">
+                        <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                            data-ad-slot="XXXXXXXXXX"
+                            data-ad-format="rectangle"></ins>
+                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature-item">
+                    <div class="icon">🔒</div>
+                    <div class="text" id="feature1">ปลอดภัย 100%</div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">⚡</div>
+                    <div class="text" id="feature2">ใช้งานทันที</div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">💰</div>
+                    <div class="text" id="feature3">ฟรี ตลอดกาล</div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">📱</div>
+                    <div class="text" id="feature4">รองรับทุกอุปกรณ์</div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🌐</div>
+                    <div class="text" id="feature5">ใช้งานออนไลน์</div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🚀</div>
+                    <div class="text" id="feature6">ไม่ต้องติดตั้งแอป</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- In-Content Ad -->
+        <div class="ad-container ad-content">
+            <ins class="adsbygoogle"
+                style="display:block; text-align:center;"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                data-ad-slot="XXXXXXXXXX"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <!-- SEO Content -->
+        <div class="seo-content">
+            <h3 id="seoTitle1">วิธีใช้งาน 2FA Code Generator ฟรี</h3>
+            <p id="seoText1">OTPGen.online เป็นเครื่องมือสร้างรหัส 2FA TOTP ฟรี
+                ออนไลน์ ที่ปลอดภัยที่สุด ไม่ต้องติดตั้งแอปพลิเคชัน Google
+                Authenticator หรือ Microsoft Authenticator
+                ใช้งานได้ทันทีผ่านเว็บเบราว์เซอร์</p>
+
+            <h3 id="seoTitle2">รองรับทุกแพลตฟอร์ม Facebook Instagram Google</h3>
+            <p id="seoText2">รองรับการสร้างรหัสยืนยัน 2FA สำหรับ Facebook,
+                Instagram, Google Account, Microsoft, Amazon, Twitter, GitHub,
+                Dropbox และแพลตฟอร์มอื่นๆ ที่ใช้มาตรฐาน TOTP RFC 6238</p>
+
+            <h3 id="seoTitle3">ปลอดภัย ไม่เก็บข้อมูล</h3>
+            <p id="seoText3">ระบบทำงานแบบ Client-side เท่านั้น ไม่มีการส่งข้อมูล
+                Secret Key ไปยังเซิร์ฟเวอร์ ข้อมูลของคุณปลอดภัย 100%
+                ไม่มีการเก็บบันทึกใดๆ</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <h3 id="footerTitle">OTPGen.online - เครื่องมือสร้างรหัส 2FA
+                    ที่ดีที่สุด</h3>
+                <p id="footerText1">ฟรี • ปลอดภัย • ใช้งานง่าย •
+                    รองรับทุกอุปกรณ์</p>
+                <p id="footerText2">สร้างรหัส TOTP, Google Authenticator Code,
+                    Facebook 2FA ได้ทันที</p>
+
+                <div class="footer-links">
+                    <a href="privacy.html">นโยบายความเป็นส่วนตัว</a> |
+                    <a href="terms.html">เงื่อนไขการใช้งาน</a> |
+                    <a href="blog/">บล็อก</a> |
+                    <a href="contact.html">ติดต่อเรา</a>
+                </div>
+
+                <p id="footerText3">© 2024 OTPGen.online - Free 2FA Code
+                    Generator</p>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="assets/js/translations.js"></script>
+        <script src="assets/js/totp.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
